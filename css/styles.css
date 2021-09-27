@@ -1,0 +1,18 @@
+#Offerings{
+    position: absolute;
+    width: 1449px;
+    height: 812px;
+    left: -9px;
+    top: -109px;
+    background: linear-gradient(270deg, rgba(27, 79, 157, 0.4) 0%, rgba(28, 28, 27, 0.2) 52.08%, rgba(28, 28, 27, 0.4) 100%), #1B4F9D;
+}
+
+#Behance{
+    position: absolute;
+    width: 1440px;
+    height: 657px;
+    left: 0px;
+    top: 4081px;
+    background: linear-gradient(106.78deg, rgba(229, 47, 38, 0.3) 27.54%, rgba(229, 47, 38, 0) 94.21%), #1B4F9D;
+
+}
