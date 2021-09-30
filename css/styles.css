@@ -18,11 +18,12 @@ ul
 .container1 , .container2, .container3 , .container4, .container5 , .container6
 {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr;
     
 }
 
-.container1 , .container2, .container3 , .container4, .container5 , .container6 div
+  .container1 div, .container2 div, .container3 div, .container4 div, .container5 div, .container6 div
 {
     padding: 8em;
     justify-items: stretch;
@@ -46,8 +47,29 @@ header, .container3, .container5
     color: white;
     background: linear-gradient(106.78deg, rgba(229, 47, 38, 0.3) 27.54%, rgba(229, 47, 38, 0) 94.21%), #1B4F9D;
 }
+.img-1{
+    background-image: url("/img/leon-vbxyFxlgpjM-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-
+.img-2{
+    background-image: url("/img/photo-1586717791821-3f44a563fa4c.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-3{
+    background-image: url("/img/ux-indonesia-qC2n6RQU4Vw-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-4{
+    background-image: url("/img/pantalla-cidi.png");    
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: 50% 3.5cm;
+ 
+}
 /* footer */
 
 .footer_top, .footer_top .footer_col1, .footer_top .container_inner > .widget, .footer_top.footer_top_full > .widget 
