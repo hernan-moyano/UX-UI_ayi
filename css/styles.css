@@ -1,18 +1,72 @@
-#Offerings{
-    position: absolute;
-    width: 1449px;
-    height: 812px;
-    left: -9px;
-    top: -109px;
+/* Fuentes */
+h1, h1 
+{
+    font-family: 'Poppins', sans-serif;
+}
+
+p 
+{
+    font-family: 'Open Sans', sans-serif;  
+}
+
+ul 
+{
+    list-style:none
+}
+
+/* Contenedores */
+.container1 , .container2, .container3 , .container4, .container5 , .container6
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+.container1 , .container2, .container3 , .container4, .container5 , .container6 div
+{
+    padding: 8em;
+    justify-items: stretch;
+    
+}
+
+.div-derecho
+{
+    text-align: right;
+}
+
+/* background */
+header, .container3, .container5 
+{
+    color: white;
     background: linear-gradient(270deg, rgba(27, 79, 157, 0.4) 0%, rgba(28, 28, 27, 0.2) 52.08%, rgba(28, 28, 27, 0.4) 100%), #1B4F9D;
 }
 
-#Behance{
-    position: absolute;
-    width: 1440px;
-    height: 657px;
-    left: 0px;
-    top: 4081px;
+.container6
+{
+    color: white;
     background: linear-gradient(106.78deg, rgba(229, 47, 38, 0.3) 27.54%, rgba(229, 47, 38, 0) 94.21%), #1B4F9D;
+}
 
+
+/* footer */
+
+.footer_top, .footer_top .footer_col1, .footer_top .container_inner > .widget, .footer_top.footer_top_full > .widget 
+{
+    text-align: center;
+}
+.footer_top, .footer_top p, .footer_top span:not(.q_social_icon_holder):not(.fa-stack):not(.qode_icon_shortcode):not(.qode_icon_font_elegant):not(.qode-icon-kiko), .footer_top li, .footer_top .textwidget, .footer_top .widget_recent_entries>ul>li>span 
+{
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    letter-spacing: 0px;
+    text-transform: none;
+    font-style: normal;
+}
+.footer_top, .footer_top p, .footer_top span, .footer_top li, .footer_top .textwidget, .footer_top .widget_recent_entries>ul>li>span 
+{
+    color: #000000;
+}
+.footer_top 
+{
+    padding: 72px 0 52px;
 }
